@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalNamingResources>
+
+    <Resource name="jdbc/testing"
+
+              auth="Container"
+
+              type="javax.sql.DataSource"
+
+              username="root"
+
+              password="lebrojam2729"
+
+              driverClassName="com.mysql.jdbc.Driver"
+
+              description="Global Address Database"
+
+              url="jdbc:mysql:/localhost:3306/testing"
+
+              maxActive="15"
+
+              maxIdle="3"/>
+
+</GlobalNamingResources>
